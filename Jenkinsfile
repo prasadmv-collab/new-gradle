@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://prasadmv-collab/new-gradle.git'
+                git branch: 'main', url: 'https://github.com/prasadmv-collab/new-gradle.git'
             }
         }
 
